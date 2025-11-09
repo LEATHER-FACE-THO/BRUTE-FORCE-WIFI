@@ -136,7 +136,7 @@ class WiFiAuditTool:
         self.discord_button = ft.ElevatedButton(
             "NUESTRO DISCORD",
             icon=ft.icons.DISCORD,
-            on_click=lambda _: webbrowser.open("https://discord.gg/4svwzsy3UP"),
+            on_click=lambda _: webbrowser.open("https://discord.gg/Zcq7GD3FFH"),
             width=200,
             bgcolor=ft.colors.BLUE_700
         )
@@ -779,4 +779,5 @@ def main(page: ft.Page):
     WiFiAuditTool(page)
 
 if __name__ == "__main__":
+
     ft.app(target=main)
